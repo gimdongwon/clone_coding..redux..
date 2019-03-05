@@ -35,8 +35,7 @@
 .Header {
     background-color: red;
     display: flex;
-    justify-content: space-around;
-    line-height: 50%;
+    justify-content: center;
 }
 
 .mapper {
