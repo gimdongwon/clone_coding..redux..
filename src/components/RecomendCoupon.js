@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class Recomend_coupon extends Component {
+export default class RecomendCoupon extends Component {
   render() {
     return (
       <div className="Recomend_coupon">
