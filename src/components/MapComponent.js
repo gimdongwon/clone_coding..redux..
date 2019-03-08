@@ -91,9 +91,9 @@ export default class MapComponent extends React.Component {
   }
   render() {
     return (
-      <>
+      <div className="mapper">
         <div id="map" />
-      </>
+      </div>
     );
   }
 }

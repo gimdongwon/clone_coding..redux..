@@ -1,26 +1,30 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import "./App.css";
 import Header from "./Header";
-import MapComponent from "./MapComponent";
 import Footer from "./Footer";
-import Content_wrap from "./Content_wrap";
+import Home from "./Home";
+import MyPage from "./MyPage";
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Fake_coding</title>
-        </Helmet>
-        <Header />
-        <div className="mapper">
-          <MapComponent />
+      <BrowserRouter>
+        <div className="App">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>Fake_coding</title>
+          </Helmet>
+          <Header />
+          <Switch>
+            <Route path="/mypage" component={MyPage} />
+            <Route path="/" component={Home} />
+          </Switch>
+          <Footer />
         </div>
-        <Content_wrap />
-        <Footer />
-      </div>
+      </BrowserRouter>
     );
   }
 }
