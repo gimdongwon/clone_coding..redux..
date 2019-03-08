@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-export default class Filter_sidebar extends Component {
+export default class FilterSidebar extends Component {
   render() {
     return (
       <div className="Filter_sidebar">
-        <title>Filter bar</title>
+        <h3>Filter bar</h3>
         <div>지역 선택</div>
         <div>음식 종류</div>
         <div>예산</div>
