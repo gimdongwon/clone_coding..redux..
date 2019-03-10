@@ -1,12 +1,13 @@
-import React, { Component } from "react";
-import { Helmet } from "react-helmet";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import './App.scss';
 
-import "./App.css";
-import Header from "./Header";
-import Footer from "./Footer";
-import Home from "./Home";
-import MyPage from "./MyPage";
+import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Home from './components/Home';
+import MyPage from './components/MyPage';
 
 class App extends Component {
   render() {
