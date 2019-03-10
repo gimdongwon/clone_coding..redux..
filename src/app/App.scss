@@ -1,89 +1,14 @@
 @charset 'utf-8';
 
-@font-face { font-family: 'S-CoreDream-3Light'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff'); font-weight: normal; font-style: normal; }
+// 변수, 믹스인
+@import './lib/stylesheets/abstracts/variables';
 
-$default-font: 'S-CoreDream-3Light';
+// reset 등
+@import './lib/stylesheets/base';
 
-* {
-    padding: 0;
-    box-sizing: border-box;
-}
+// layout
+@import './lib/stylesheets/layout/header';
+@import './lib/stylesheets/layout/footer';
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: $default-font;
-}
-
-.App {
-    text-align: center;
-}
-
-.Header {
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    color: #fff;
-}
-
-.mapper {
-    display: flex;
-    justify-content: center;
-}
-
-#map {
-    width: 100%;
-    height: 450px;
-}
-
-.Footer {
-    width: 100%;
-    height: 200px;
-    background-color: #373737;
-    color: #fff;
-    text-align: left;
-    padding: 15px;
-}
-
-.content_wrap {
-    display: flex;
-    justify-content: center;
-}
-
-.content {
-    /* display: flex; */
-    width: 960px;
-    /* justify-content: center; */
-}
-
-.content_item {
-    width: 220px;
-}
-
-.content_items {
-    /* display: flex; */
-}
-
-.content_item>img {
-    width: 200px;
-    height: 250px;
-    margin: 10px;
-}
-
-.Filter_sidebar {
-    width: 220px;
-    border: solid black 1px;
-}
-
-.Filter_sidebar>div {
-    border: solid black 1px;
-    padding: 10px;
-}
-
-b {
-    color: red;
-}
-
-.reserve-btn {
-    margin-right: 30px
-}
+// components
+@import './lib/stylesheets/components/map';

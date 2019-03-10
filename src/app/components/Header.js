@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Header extends React.Component {
   render() {
     return (
-      <div className="Header">
+      <div className="header">
         <h1>Chaibi</h1>
         <select name="city">
           <option value="서울">서울</option>

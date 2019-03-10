@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 export default class Footer extends Component {
   render() {
     return (
-      <div className="Footer">
+      <div className="footer">
         <h2>Chaibi</h2>
         <p>최고의 레스토랑을 즐기는 특별한 방법.</p>
         <p>검색부터 예약까지 한번에, 포잉</p>

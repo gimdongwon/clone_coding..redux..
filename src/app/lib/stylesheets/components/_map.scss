@@ -1,0 +1,53 @@
+// 요것도 컴포넌트 별로 나눠보자
+.mapper {
+  display: flex;
+  justify-content: center;
+}
+
+#map {
+  width: 100%;
+  height: 450px;
+}
+
+.content_wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  /* display: flex; */
+  width: 960px;
+  /* justify-content: center; */
+}
+
+.content_item {
+  width: 220px;
+}
+
+.content_items {
+  /* display: flex; */
+}
+
+.content_item>img {
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+}
+
+.Filter_sidebar {
+  width: 220px;
+  border: solid black 1px;
+}
+
+.Filter_sidebar>div {
+  border: solid black 1px;
+  padding: 10px;
+}
+
+b {
+  color: red;
+}
+
+.reserve-btn {
+  margin-right: 30px
+}
