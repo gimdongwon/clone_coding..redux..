@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 
-export default class FilterSidebar extends Component {
+export default class FilterSidebar extends PureComponent {
   render() {
     return (
       <div className="Filter_sidebar">

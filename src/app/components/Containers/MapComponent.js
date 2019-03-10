@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class MapComponent extends React.Component {
+export default class MapComponent extends React.PureComponent {
   componentDidMount() {
     let container = document.getElementById("map"); //지도를 담을 영역의 DOM 레퍼런스
     let options = {

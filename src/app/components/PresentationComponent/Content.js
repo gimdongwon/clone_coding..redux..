@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 
-export default class Content extends Component {
+export default class Content extends PureComponent {
   state = {
     title: [1, 2, 3, 4, 5, 6, 7]
   };

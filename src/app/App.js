@@ -1,15 +1,15 @@
-import './App.scss';
+import "./App.scss";
 
-import React, { Component } from 'react';
-import { Helmet } from 'react-helmet';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React, { PureComponent } from "react";
+import { Helmet } from "react-helmet";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Home from './components/Home';
-import MyPage from './components/MyPage';
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import MyPage from "./components/MyPage";
 
-class App extends Component {
+export default class App extends PureComponent {
   render() {
     return (
       <BrowserRouter>
@@ -29,5 +29,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

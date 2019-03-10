@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class Information extends React.Component {
+export default class Information extends React.PureComponent {
   render() {
     return (
       <>

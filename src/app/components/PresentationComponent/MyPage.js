@@ -3,7 +3,7 @@ import React from "react";
 import Information from "./Information";
 import MypageItems from "./MypageItems";
 
-export default class MyPage extends React.Component {
+export default class MyPage extends React.PureComponent {
   render() {
     return (
       <>
